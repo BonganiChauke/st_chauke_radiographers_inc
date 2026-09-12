@@ -36,7 +36,7 @@ export default function Navbar() {
           >
             <span className="brand-text">
               <em>ST</em> Chauke Radiographers <em>Inc</em>
-              <span className="brand-sub">Diagnostic Radiography</span>
+              {/* <span className="brand-sub">Diagnostic Radiography</span> */}
             </span>
           </a>
 
