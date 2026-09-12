@@ -1,11 +1,19 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
+import { useState } from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Services from "./components/Services";
+import About from "./components/About";
+import Founder from "./components/Founder";
+import Contact from "./components/Contact";
+import Footer, { BackToTop } from "./components/Footer";
+import PrivacyModal from "./components/PrivacyModal";
+import { useScrollSpy } from "./hooks/useScrollSpy";
 
-function App() {
-  const [count, setCount] = useState(0)
+const SECTION_IDS = ["home", "services", "about", "founder", "contact"];
+
+export default function App() {
+  const [privacyOpen, setPrivacyOpen] = useState(false);
+  const { showTop } = useScrollSpy(SECTION_IDS);
 
   return (
     <>
