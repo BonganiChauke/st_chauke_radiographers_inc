@@ -938,6 +938,10 @@ section[id] {
   color: #9a3412;
 }
 
+.star{
+  color: red;
+}
+
 /* ---------- Footer ---------- */
 .footer {
   background:
