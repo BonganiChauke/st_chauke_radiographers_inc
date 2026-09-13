@@ -225,7 +225,26 @@ export default function Contact() {
                   <div className="row g-3">
                     <div className="col-md-6">
                       <label htmlFor="cf-name" className="form-label">
-                        Full name <span aria-hidden="true">*</span>
+                        First Name{" "}
+                        <span className="star" aria-hidden="true">
+                          *
+                        </span>
+                      </label>
+                      <input
+                        type="text"
+                        id="cf-name"
+                        name="name"
+                        className="form-control"
+                        autoComplete="name"
+                        required
+                      />
+                    </div>
+                    <div className="col-md-6">
+                      <label htmlFor="cf-name" className="form-label">
+                        Last Name{" "}
+                        <span className="star" aria-hidden="true">
+                          *
+                        </span>
                       </label>
                       <input
                         type="text"
