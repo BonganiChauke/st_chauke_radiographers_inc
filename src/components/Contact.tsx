@@ -319,8 +319,7 @@ export default function Contact() {
                     </div>
                     <div className="col-12">
                       <button type="submit" className="btn btn-gradient w-100">
-                        <CalendarCheck size={19} aria-hidden="true" />
-                        Send booking request
+                        Send Request
                       </button>
                       <p className="form-text text-center mt-3 mb-0">
                         Please do not include sensitive medical details in this
