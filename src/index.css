@@ -1278,8 +1278,8 @@ section[id] {
     display: grid;
   }
 
-  .footer {
-    display: block;
+  .footer .row{
+    display: block !important;
   }
 
 }
