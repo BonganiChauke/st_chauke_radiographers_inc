@@ -1264,6 +1264,10 @@ section[id] {
     margin: 20px;
   }
 
+  .reveal{
+    transform: none;
+  }
+
   .exp-chip {
     right: 12px;
     bottom: -16px;
