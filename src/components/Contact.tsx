@@ -257,7 +257,10 @@ export default function Contact() {
                     </div>
                     <div className="col-md-6">
                       <label htmlFor="cf-phone" className="form-label">
-                        Phone number <span aria-hidden="true">*</span>
+                        Phone number{" "}
+                        <span className="star" aria-hidden="true">
+                          *
+                        </span>
                       </label>
                       <input
                         type="tel"
@@ -275,7 +278,10 @@ export default function Contact() {
                     </div>
                     <div className="col-md-6">
                       <label htmlFor="cf-email" className="form-label">
-                        Email address
+                        Email address{" "}
+                        <span className="star" aria-hidden="true">
+                          *
+                        </span>
                       </label>
                       <input
                         type="email"
@@ -287,7 +293,10 @@ export default function Contact() {
                     </div>
                     <div className="col-md-6">
                       <label htmlFor="cf-service" className="form-label">
-                        Scan required <span aria-hidden="true">*</span>
+                        Scan required{" "}
+                        <span className="star" aria-hidden="true">
+                          *
+                        </span>
                       </label>
                       <select
                         id="cf-service"
@@ -305,7 +314,10 @@ export default function Contact() {
                     </div>
                     <div className="col-12">
                       <label htmlFor="cf-message" className="form-label">
-                        Message <span aria-hidden="true">*</span>
+                        Message{" "}
+                        <span className="star" aria-hidden="true">
+                          *
+                        </span>
                       </label>
                       <textarea
                         id="cf-message"
