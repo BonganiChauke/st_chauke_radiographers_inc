@@ -1245,7 +1245,7 @@ section[id] {
 }
 
 /* ---------- Small screens ---------- */
-@media (max-width: 767.98em) {
+@media (max-width: 767.98px) {
   .section-pad {
     padding: 3.8rem 0;
   }
