@@ -1255,8 +1255,14 @@ section[id] {
     padding: calc(var(--nav-h) + 2.6rem) 0 3.4rem;
   }
 
-  .hero-media {
-    margin-top: 2.6rem;
+  .float-card {
+    position: unset;
+    backdrop-filter: unset;
+    box-shadow: unset;
+    padding: 13px 18px 15px;
+    animation: unset;
+    width: 80%;
+    margin: 20px;
   }
 
   .exp-chip {
@@ -1273,7 +1279,4 @@ section[id] {
     display: block;
   }
 
-  .footer .row{
-    display: block !important;
-  }
 }
