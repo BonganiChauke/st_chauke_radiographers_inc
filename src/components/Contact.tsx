@@ -8,6 +8,7 @@ import {
   MapPin,
   MessageCircle,
   Phone,
+  PhoneCall,
 } from "lucide-react";
 import Reveal from "./Reveal";
 import { PHONE_DISPLAY, PHONE_HREF } from "./Navbar";
