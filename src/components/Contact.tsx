@@ -167,25 +167,25 @@ export default function Contact() {
 
               <div className="card-lift">
                 <h3 className="h5 d-flex align-items-center gap-2">
-                  <CalendarCheck
+                  <PhoneCall
                     size={20}
                     aria-hidden="true"
                     style={{ color: "var(--purple-700)" }}
                   />
-                  Service areas
+                  Chat on WhatsApp
                 </h3>
                 <p className="mb-3">
-                  Our practice serves patients across the Greater Johannesburg
-                  area:
+                  We're here to help! Chat with us on WhatsApp for quick
+                  assistance.
                 </p>
-                <ul className="check-list mb-0">
+                {/* <ul className="check-list mb-0">
                   {["Vosloorus"].map((area) => (
                     <li key={area}>
                       <CheckCircle2 size={18} aria-hidden="true" />
                       <span>{area}</span>
                     </li>
                   ))}
-                </ul>
+                </ul> */}
                 <hr className="my-4" />
                 <a
                   className="btn btn-gradient w-100"
