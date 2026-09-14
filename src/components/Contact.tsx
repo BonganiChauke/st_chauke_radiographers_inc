@@ -329,6 +329,7 @@ export default function Contact() {
                         className="form-control"
                         rows={4}
                         required
+                        maxLength={250}
                         placeholder="Tell us briefly what you need, your preferred day, and whether you have a referral letter."
                       />
                     </div>
