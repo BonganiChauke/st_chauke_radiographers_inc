@@ -346,7 +346,10 @@ export default function Contact() {
                           I consent to {Company_Name} processing the personal
                           information in this form, in line with the Protection
                           of Personal Information Act (POPIA), solely to respond
-                          to my enquiry. <span aria-hidden="true">*</span>
+                          to my enquiry.{" "}
+                          <span className="star" aria-hidden="true">
+                            *
+                          </span>
                         </label>
                       </div>
                     </div>
