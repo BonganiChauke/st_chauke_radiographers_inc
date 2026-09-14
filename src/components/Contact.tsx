@@ -224,7 +224,7 @@ export default function Contact() {
                 <form onSubmit={handleSubmit} noValidate={false}>
                   <div className="row g-3">
                     <div className="col-md-6">
-                      <label htmlFor="cf-name" className="form-label">
+                      <label htmlFor="first_name" className="form-label">
                         First Name{" "}
                         <span className="star" aria-hidden="true">
                           *
@@ -232,7 +232,7 @@ export default function Contact() {
                       </label>
                       <input
                         type="text"
-                        id="cf-name"
+                        id="first_name"
                         name="name"
                         className="form-control"
                         autoComplete="name"
@@ -240,7 +240,7 @@ export default function Contact() {
                       />
                     </div>
                     <div className="col-md-6">
-                      <label htmlFor="cf-name" className="form-label">
+                      <label htmlFor="last_name" className="form-label">
                         Last Name{" "}
                         <span className="star" aria-hidden="true">
                           *
@@ -248,7 +248,7 @@ export default function Contact() {
                       </label>
                       <input
                         type="text"
-                        id="cf-name"
+                        id="last_name"
                         name="name"
                         className="form-control"
                         autoComplete="name"
@@ -256,7 +256,7 @@ export default function Contact() {
                       />
                     </div>
                     <div className="col-md-6">
-                      <label htmlFor="cf-phone" className="form-label">
+                      <label htmlFor="phone" className="form-label">
                         Phone number{" "}
                         <span className="star" aria-hidden="true">
                           *
@@ -264,7 +264,7 @@ export default function Contact() {
                       </label>
                       <input
                         type="tel"
-                        id="cf-phone"
+                        id="phone"
                         name="phone"
                         className="form-control"
                         autoComplete="tel"
@@ -277,7 +277,7 @@ export default function Contact() {
                       </p>
                     </div>
                     <div className="col-md-6">
-                      <label htmlFor="cf-email" className="form-label">
+                      <label htmlFor="email" className="form-label">
                         Email address{" "}
                         <span className="star" aria-hidden="true">
                           *
@@ -285,21 +285,21 @@ export default function Contact() {
                       </label>
                       <input
                         type="email"
-                        id="cf-email"
+                        id="email"
                         name="email"
                         className="form-control"
                         autoComplete="email"
                       />
                     </div>
                     <div className="col-md-6">
-                      <label htmlFor="cf-service" className="form-label">
+                      <label htmlFor="service" className="form-label">
                         Scan required{" "}
                         <span className="star" aria-hidden="true">
                           *
                         </span>
                       </label>
                       <select
-                        id="cf-service"
+                        id="service"
                         name="service"
                         className="form-select"
                         required
@@ -313,14 +313,14 @@ export default function Contact() {
                       </select>
                     </div>
                     <div className="col-12">
-                      <label htmlFor="cf-message" className="form-label">
+                      <label htmlFor="message" className="form-label">
                         Message{" "}
                         <span className="star" aria-hidden="true">
                           *
                         </span>
                       </label>
                       <textarea
-                        id="cf-message"
+                        id="message"
                         name="message"
                         className="form-control"
                         rows={4}
@@ -333,14 +333,11 @@ export default function Contact() {
                         <input
                           className="form-check-input mt-1"
                           type="checkbox"
-                          id="cf-consent"
+                          id="consent"
                           name="consent"
                           required
                         />
-                        <label
-                          className="form-check-label"
-                          htmlFor="cf-consent"
-                        >
+                        <label className="form-check-label" htmlFor="consent">
                           I consent to {Company_Name} processing the personal
                           information in this form, in line with the Protection
                           of Personal Information Act (POPIA), solely to respond
