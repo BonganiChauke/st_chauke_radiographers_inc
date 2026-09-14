@@ -236,6 +236,7 @@ export default function Contact() {
                         name="name"
                         className="form-control"
                         autoComplete="name"
+                        placeholder="Name"
                         required
                       />
                     </div>
@@ -252,6 +253,7 @@ export default function Contact() {
                         name="name"
                         className="form-control"
                         autoComplete="name"
+                        placeholder="Surname"
                         required
                       />
                     </div>
@@ -288,6 +290,8 @@ export default function Contact() {
                         id="email"
                         name="email"
                         className="form-control"
+                        required
+                        placeholder="Email Address"
                         autoComplete="email"
                       />
                     </div>
