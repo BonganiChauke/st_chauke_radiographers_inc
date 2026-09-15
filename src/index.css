@@ -941,7 +941,7 @@ section[id] {
   color: #9a3412;
 }
 
-.star{
+.star {
   color: red;
 }
 
@@ -1287,7 +1287,7 @@ section[id] {
     margin: 20px;
   }
 
-  .reveal{
+  .reveal {
     transform: none;
   }
 
@@ -1301,7 +1301,7 @@ section[id] {
     display: grid;
   }
 
-  .footer .row{
+  .footer .row {
     display: block !important;
   }
 
