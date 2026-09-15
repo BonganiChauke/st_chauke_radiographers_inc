@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Footer, { BackToTop } from "./components/Footer";
 import PrivacyModal from "./components/PrivacyModal";
 import { useScrollSpy } from "./hooks/useScrollSpy";
+import Privacy from "./components/Privacy";
 
 const SECTION_IDS = ["home", "services", "about", "founder", "contact"];
 
@@ -29,6 +30,7 @@ export default function App() {
         <Services />
         <Founder />
         <Contact />
+        <Privacy />
       </main>
 
       <Footer onOpenPrivacy={() => setPrivacyOpen(true)} />
