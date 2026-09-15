@@ -129,7 +129,7 @@ export default function PrivacyModal({ open, onClose }: PrivacyModalProps) {
             For privacy queries or to exercise your rights, contact our
             Information Officer at{" "}
             <a href="mailto:chaukesally1@gmail.com">{Email}</a> or{" "}
-            <a href="+27731127351">{PHONE_DISPLAY}</a>. The Information
+            <a href="{PhoneRef}">{PHONE_DISPLAY}</a>. The Information
             Regulator can be reached at{" "}
             <a href="malito:inforeg@justice.gov.za">inforeg@justice.gov.za</a>. 
           </p>
