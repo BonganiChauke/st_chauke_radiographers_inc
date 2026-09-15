@@ -21,6 +21,9 @@
   --shadow-lg: 0 24px 70px rgba(28, 20, 74, 0.18);
   --radius: 18px;
   --nav-h: 76px;
+  --ri-line: #e6e6f0;
+  --ri-radius: 14px;
+  --ri-shadow: 0 10px 30px rgba(27, 27, 42, 0.08);
 }
 
 
